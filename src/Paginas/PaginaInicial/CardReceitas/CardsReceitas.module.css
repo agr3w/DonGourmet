@@ -1,0 +1,63 @@
+@import '../../../Styles/variaveis.css';
+
+.cardsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-left: 20px;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+  text-align: left;
+  margin-top: 25px;
+  padding: 10px;
+  background-color: var(--background);
+  font-family: var(--fonte-corpo);
+  font-size: 28px;
+}
+
+.h3 {
+  display: flex;
+  justify-content: center;
+  font-family: var(--fonte-titulo);
+  padding: 10px 0;
+  font-size: 32px;
+}
+
+.setaDiv {
+  display: flex;
+  align-items: center;
+}
+
+.seta {
+  display: flex;
+  align-items: center;
+  font-size: 32px;
+  padding-left: 20px;
+  transition: 0.3s;
+}
+
+.seta:hover {
+  opacity: 0.5;
+}
+
+.todas {
+  display: flex;
+  justify-content: center;
+  font-family: var(--fonte-corpo);
+  font-size: 24px;
+  border-top: dotted 1px grey;
+  margin-top: 55px;
+  color: brown;
+  padding: 25px 0;
+}
+
+@media screen and (max-width: 450px){
+
+  h3 {
+    font-size: 32px
+  }
+
+};
