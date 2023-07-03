@@ -1,0 +1,26 @@
+@import "../../Styles/variaveis.css";
+
+.banner {
+    position: relative;
+  }
+  
+  .banner img {
+    width: 100%;
+    display: flex;
+    max-height: 540px;
+    height: 100%;
+  }
+  
+  .banner h1 {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    color: var(--cor-primaria);
+    font-family: var(--fonte-titulo);
+    font-size: 52px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 10px;
+  }
+  

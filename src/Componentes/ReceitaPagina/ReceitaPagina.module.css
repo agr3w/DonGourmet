@@ -1,0 +1,182 @@
+@import "../../Styles/variaveis.css";
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 200px;
+  
+}
+
+.banner {
+  width: 100%;
+  max-width: 720px;
+  height: auto;
+  object-fit: cover;
+  border-top: 1px dotted grey;
+  border-bottom: 1px dotted grey;
+  padding: 25px;
+}
+
+.content {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.titulo {
+  font-size: 34px;
+  font-weight: bold;
+}
+
+.subtitulo {
+  display: flex;
+  font-family: var(--fonte-corpo);
+}
+
+.divSubs {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+span,
+strong {
+  padding-right: 6px;
+}
+
+.ingredientes {
+  font-size: 18px;
+  line-height: 45px;
+  display: flex;
+  justify-content: flex-start;
+  text-align: left;
+  font-family: var(--fonte-corpo);
+}
+
+.preparo {
+  position: relative;
+  font-size: 18px;
+  line-height: 25px;
+  padding: 0 60px 0 0;
+  border-radius: 20px;
+  margin: 5px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: left;
+  font-family: var(--fonte-corpo);
+  background-color: rgb(241, 241, 241);
+}
+
+.preparo ul {
+  list-style-type: none;
+}
+
+.preparo li {
+  margin-bottom: 10px;
+}
+
+.infos {
+  font-family: var(--fonte-corpo);
+  margin-bottom: 25px;
+}
+
+.infos ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+
+.infos a {
+  text-decoration: none;
+  color: var(--cor-padrao);
+  transition: 0.3s;
+}
+
+.infos a:hover {
+  color: var(--cor-hover)
+}
+
+.estrelaCheia,
+.estrelaVazia {
+  font-size: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.estrelaCheia {
+  color: rgb(255, 208, 0);
+}
+
+.estrelaVazia {
+  color: gray;
+}
+
+.estrelaCheia:hover,
+.estrelaVazia:hover {
+  color: rgba(255, 217, 0, 0.76);
+}
+
+.checkboxItem {
+  display: flex;
+  align-items: center;
+}
+
+.checkbox {
+  position: relative;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px;
+  cursor: pointer;
+  
+}
+
+.checkboxIcon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 16px;
+}
+
+.checkboxCompleto {
+  background-color: #5cb85c;
+  color: white;
+  border-color: #5cb85c;
+}
+
+.preparo li p {
+  display: inline;
+  margin-left: 15px;
+}
+
+.completo p {
+  text-decoration: line-through;
+}
+
+/* 1200px */
+
+@media screen and (max-width: 1200px){
+  .divSubs {
+    flex-direction: column;
+  }
+}
+
+/* 700px */
+
+@media screen and (max-width: 700px){
+
+  .banner {
+    max-width: 220px;
+  }
+
+  .container {
+    margin: 0;
+  }
+}
+

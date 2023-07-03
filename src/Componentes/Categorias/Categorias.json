@@ -1,0 +1,128 @@
+[
+  {
+    "id": 1,
+    "name": "Carnes",
+    "link": "/receitas/ReceitasFiltradas/carnes",
+    "categoryType": "Método de Preparo"
+  },
+  {
+    "id": 2,
+    "name": "Bolos",
+    "link": "/receitas/ReceitasFiltradas/Bolo",
+    "categoryType": "Método de Preparo"
+  },
+  {
+    "id": 3,
+    "name": "Massas",
+    "link": "/receitas/ReceitasFiltradas/Massa",
+    "categoryType": "Método de Preparo"
+  },
+  {
+    "id": 4,
+    "name": "Lanches",
+    "link": "/receitas/ReceitasFiltradas/Lanches",
+    "categoryType": "Método de Preparo"
+  },
+  {
+    "id": 5,
+    "name": "Sobremesas",
+    "link": "/receitas/ReceitasFiltradas/Sobremesa",
+    "categoryType": "Método de Preparo"
+  },
+  {
+    "id": 6,
+    "name": "Refogados",
+    "link": "/receitas/ReceitasFiltradas/Refogado",
+    "categoryType": "Método de Preparo"
+  },
+  {
+    "id": 7,
+    "name": "Fritos",
+    "link": "/receitas/ReceitasFiltradas/Frito",
+    "categoryType": "Método de Preparo"
+  },
+  {
+    "id": 8,
+    "name": "Assados",
+    "link": "/receitas/ReceitasFiltradas/Assado",
+    "categoryType": "Método de Preparo"
+  },
+  {
+    "id": 9,
+    "name": "Cozidos",
+    "link": "/receitas/ReceitasFiltradas/Cozido",
+    "categoryType": "Método de Preparo"
+  },
+  {
+    "id": 10,
+    "name": "Simples",
+    "link": "/receitas/ReceitasFiltradas/Simples",
+    "categoryType": "Método de Preparo"
+  },
+  {
+    "id": 11,
+    "name": "Brasil",
+    "link": "/receitas/ReceitasFiltradas/Brasileira",
+    "categoryType": "Origem do Prato"
+  },
+  {
+    "id": 12,
+    "name": "Estadonidense",
+    "link": "/receitas/ReceitasFiltradas/Estadonidense",
+    "categoryType": "Origem do Prato"
+  },
+  {
+    "id": 13,
+    "name": "França",
+    "link": "/receitas/ReceitasFiltradas/Franca",
+    "categoryType": "Origem do Prato"
+  },
+  {
+    "id": 14,
+    "name": "Portugal",
+    "link": "/receitas/ReceitasFiltradas/Portugal",
+    "categoryType": "Origem do Prato"
+  },
+  {
+    "id": 15,
+    "name": "Persa",
+    "link": "/receitas/ReceitasFiltradas/Persa",
+    "categoryType": "Origem do Prato"
+  },
+  {
+    "id": 16,
+    "name": "Ásia",
+    "link": "/receitas/ReceitasFiltradas/Asia",
+    "categoryType": "Origem do Prato"
+  },
+  {
+    "id": 17,
+    "name": "Indefinidas",
+    "link": "/receitas/ReceitasFiltradas/Indefinido",
+    "categoryType": "Origem do Prato"
+  },
+  {
+    "id": 18,
+    "name": "Almoço",
+    "link": "/receitas/ReceitasFiltradas/Almoco",
+    "categoryType": "Ocasiões"
+  },
+  {
+    "id": 19,
+    "name": "Café da tarde",
+    "link": "/receitas/ReceitasFiltradas/CafeTarde",
+    "categoryType": "Ocasiões"
+  },
+  {
+    "id": 20,
+    "name": "Dia a Dia",
+    "link": "/receitas/ReceitasFiltradas/DiaDia",
+    "categoryType": "Ocasiões"
+  },
+  {
+    "id": 21,
+    "name": "Feriados",
+    "link": "/receitas/ReceitasFiltradas/Feriado",
+    "categoryType": "Ocasiões"
+  }
+]

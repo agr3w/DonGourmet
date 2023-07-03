@@ -1,0 +1,94 @@
+@import "../../Styles/variaveis.css";
+
+.navbar {
+  background-color: var(--background);
+  padding: 10px;
+}
+
+.navbar ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar li {
+  margin: 0 10px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: var(--cor-padrao);
+  font-family: var(--fonte-corpo);
+  font-weight: bold;
+}
+
+.logo {
+  max-width: 50px;
+  width: 100%;
+  position: absolute;
+  left: 20px;
+  top: 10px;
+}
+
+.navbar a:hover {
+  color: var(--cor-hover);
+}
+
+.profileIcon {
+  font-size: 24px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: var(--background);
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.profileIcon .menu {
+  z-index: 99;
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+
+.menu a {
+  color: var(--cor-padrao);
+  text-decoration: none;
+  margin-bottom: 5px;
+  font-size: 16px;
+}
+
+.menu a:hover {
+  color: var(--cor-hover);
+}
+
+@media screen and (max-width: 425px){
+
+  .navbar ul {
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .logo {
+    position: inherit;
+  }
+
+  .navbar li {
+    padding: 5px 0;
+  }
+
+  .navbar a {
+    font-size: 18px;
+  }
+
+}

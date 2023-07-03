@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "name": "Tomate",
+    "image": "./tomate.webp",
+    "description": "O tomate é um fruto rico em vitaminas e antioxidantes, ideal para diversas receitas.",
+    "week": false
+  },
+  {
+    "id": 2,
+    "name": "Cebola",
+    "image": "https://www.yarabrasil.com.br/globalassets/pos-colheita-da-cebola.webp",
+    "description": "A cebola é um ingrediente versátil que adiciona sabor e aroma aos pratos.",
+    "week": true
+  }
+]
