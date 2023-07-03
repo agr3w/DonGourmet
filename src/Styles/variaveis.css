@@ -1,0 +1,13 @@
+:root {
+    /* Cores */
+    --cor-padrao: #000;
+    --cor-primaria: #edf764;
+    --cor-secundaria: #666;
+    --cor-hover: #ff6600;
+    --background: #f1f1f1;
+  
+    /* Fontes */
+    --fonte-titulo: 'Breethin', Roboto, Arial;
+    --fonte-corpo: 'Arial', sans-serif;
+  }
+  
